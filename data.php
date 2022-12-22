@@ -2,7 +2,8 @@
 // database connection code
 // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
 
-$con = mysqli_connect('sql6.freesqldatabase.com', 'sql6585225', '3Pk2QBNdws','sql6585225');
+// $con = mysqli_connect('sql6.freesqldatabase.com', 'sql6585225', '3Pk2QBNdws','sql6585225');
+$con = mysqli_connect('sql301.epizy.com', 'epiz_33235304', 'VyiHdg6fnyyR','epiz_33235304_info');
 if (mysqli_connect_errno()) {
     echo  mysqli_connect_error();
 } else {
