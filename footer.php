@@ -1,9 +1,11 @@
 <footer>
         <div class="bottomrow">
-            <div class="bottomleft">
+            <div class="bottomleft" id="btn">
                 <p> &copy;
                     2021 by shreejal <br>
-                    Helloworld</p>
+                    <span onClick="onClick()">HelloWorld </span>  </p>
+            
+                    
             </div>
             <div class="bottomright">
                 <div class=bcol1>
@@ -26,6 +28,18 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        var count = 0;
+        
+        function onClick(){
+            count++;
+            if(count == 7){
+                window.location.href="https://www.instagram.com/_rajwiii/";
+            }
+         
+        }
+    </script>
+
     <script type="text/javascript">
         let progress = document.getElementById('progressbar');
         let totalHeight = document.body.scrollHeight - window.innerHeight;
