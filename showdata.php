@@ -3,26 +3,22 @@ $username="shreejal27";
 $password="helloworld";
 
 if($username== $_POST['username'] && $password==$_POST['password']){
-    echo "Hi beautiful";
-}
-else{
-    echo "Wrong password";
-}
 
-?>
-<?php
+    echo '<script> 
+    alert ("You Have Access To All The Recorded Datas  ")
+ 
+    </script>';
+
 $host= "sql6.freemysqlhosting.net";
 $user= "sql6585225";
 $password= "3Pk2QBNdws";
 $database= "sql6585225";
 
 $connection= mysqli_connect($host, $user, $password, $database);
-if (mysqli_connect_errno()) {
+ if (mysqli_connect_errno()) {
     echo  mysqli_connect_error();
-} 
-else{
+ } 
 
-}
 ?>
 <style>
     table, th, td {
@@ -67,3 +63,13 @@ table.center{
         ?>
         </table>
      
+<?php
+}
+else{
+    echo '<script> 
+    alert ("You Have Entered Wrong Credentials ")
+    window.location.replace("index.php");
+    </script>';
+}
+
+?>
