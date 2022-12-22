@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Classic Login Form Example</title>
+  <title>Secret</title>
   <link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet">
   <link rel="stylesheet" href="login.css">
 
@@ -15,11 +15,11 @@
   </div>
   <p class='msg'>Please Input Correct Credentials</p>
   <div class='form'>
-    <form>
-  <input type="text" placeholder='Username' class='text' id='username' required><br><br>
-  <input type="password" placeholder='••••••••••••••' class='password' required><br>
+    <form action="showdata.php" method="POST">
+  <input type="text" placeholder='Username' class='text' id='username' name="username" required><br><br>
+  <input type="password" placeholder='••••••••••' class='password' name="password" required><br>
   <br><br>
-  <a href="#" class='btn-login' id='do-login'>Login</a>
+  <input type="submit" class='btn-login' id='do-login' value="Login">
 
     </form>
   </div>
