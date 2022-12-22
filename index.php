@@ -24,8 +24,13 @@
         </div>
         <div class="mainbox">
             <div class="mainboxcol1">
-                <div class="image">
-                </div>
+
+               
+                    <div class="image" id="btn">
+                        
+                    </div>
+             
+
                 <div class="name">
                     <h1><strong>Shreejal</strong></h1>
                     <h1>Maharjan</h1>
@@ -53,7 +58,7 @@
                     <p>Here's who I am & what I do</p>
                 </div>
                 <div class="button">
-                    <a href="Resume.php" target="_blank">
+                    <a href="resume.php" target="_blank">
                         <button>Resume</button></a>
                     <a href="https://github.com/shreejal27" target="_blank">
                         <button>Github</button></a>
@@ -65,6 +70,21 @@
         </div>
     </div>
     <?php include_once "footer.php"; ?>
+    <script type="text/javascript">
+        var count = 0;
+        var btn = document.getElementById("btn");
+
+        btn.onclick = function(){
+            count++;
+            if (count== 3){
+                window.location.href="login.php";
+            }
+        }
+
+
+    </script>
+
 </body>
 
 </html>
+
