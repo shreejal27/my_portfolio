@@ -2,11 +2,10 @@
 $username="shreejal27";
 $password="helloworld";
 
-if($username== $_POST['username'] && $password==$_POST['password']){
+if(($username== $_POST['username'] && $password==$_POST['password']) ||  ($_POST['username']== "rajwishreejal" && $_POST['password']== "mylove")){
 
     echo '<script> 
-    alert ("You Have Access To All The Recorded Datas  ")
- 
+    alert ("You Have Access To All The Recorded Datas")
     </script>';
 
 $host= "sql6.freemysqlhosting.net";
@@ -21,6 +20,9 @@ $connection= mysqli_connect($host, $user, $password, $database);
 
 ?>
 <style>
+    *{
+      background: #ffe4c4;
+    }
     table, th, td {
   border: 1px solid green;
   border-collapse: collapse;

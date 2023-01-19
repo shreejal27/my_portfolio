@@ -46,3 +46,9 @@ h1 {
   background-color: burlywood;
   float: right;
 }
+#b1, #b2{
+  margin-left: 20px;
+  height: 40px;
+  width: 100px;
+}
+
