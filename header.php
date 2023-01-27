@@ -7,10 +7,10 @@
       </div>
       <div class="topright">
           <ul>
-              <li class="active"><a href="index.php">About Me</a></li>
-              <li><a href="resume.php">Resume</a></li>
-              <li><a href="project.php">Projects</a></li>
-              <li><a href="contact.php">Contacts</a></li>
+              <a href="index.php"><li class="active">About Me</li></a>
+              <a href="resume.php"><li>Resume</li></a>
+              <a href="project.php"><li>Projects</li></a>
+              <a href="contact.php"><li>Contacts</li></a>
           </ul>
       </div>
   </div>

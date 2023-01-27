@@ -46,9 +46,40 @@ h1 {
   background-color: burlywood;
   float: right;
 }
+button {
+  margin-top: -5px;
+  height: 50px;
+  width: 130px;
+  border-radius: 50px;
+  font-size: 15px;
+  background-color: #ffe4c4;
+  border: transparent;
+  transition: 0.6s ease;
+  outline: none;
+  
+}
+button:hover {
+  background-color: #c9a9a6;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+
+
+
 #b1, #b2{
   margin-left: 20px;
-  height: 40px;
-  width: 100px;
+ 
 }
+#b2{
+  position: absolute;
+}
+
+pre{
+  display: inline-block;
+}
+
+
+
+
 

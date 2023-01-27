@@ -21,8 +21,8 @@
                  "Get ready to play the classic game of Rock, Paper, Scissors in a whole new way! With sleek HTML and CSS design, and dynamic JavaScript functionality, this game is sure to provide hours of entertainment. 
                  <br><br>
                  Choose your weapon and take on the computer in a battle of wits and strategy. Will you come out victorious? Play now and find out!"</p>
-                 <button id="b1"><a href="https://shreejal27.github.io/RockPaperScissor/" target="_blank">See Live </a> </button> 
-                 <button id="b2"><a href="https://github.com/shreejal27/RockPaperScissor/" target="_blank">Source Code </a> </button>
+            <a href="https://shreejal27.github.io/RockPaperScissor/" target="_blank"><button id="b1">See Live</button> </a>
+           <a href="https://github.com/shreejal27/RockPaperScissor/" target="_blank"> <button id="b2">Source Code</button> </a> 
                  </div>
                  <div class="rcol">
                     img1
@@ -54,8 +54,8 @@
                     const codeButton = document.getElementById("b2");
                     let buttonName = codeButton.innerHTML;
                     codeButton.addEventListener("mouseover", function() {
-                    let randomCode = "html" + "<br>"+ "head";
-                    codeButton.innerHTML = randomCode;
+                    let randomCode = "&lt;html&gt;" + "<br>"+ "&lt;head&gt;";
+                    codeButton.innerHTML = "<pre>"+randomCode+"</pre>";
 
                     });
                     codeButton.addEventListener("mouseout", function() {
