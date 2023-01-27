@@ -2,22 +2,22 @@
         <div class="bottomrow">
             <div class="bottomleft" id="btn">
                 <p> &copy;
-                    2021 by shreejal <br>
+                 <strong> 2021 by shreejal </strong>   <br>
                     <span onClick="onClick()">HelloWorld </span>  </p>
             
                     
             </div>
             <div class="bottomright">
                 <div class=bcol1>
-                    <p>Call<br>
+                <strong>  <p>Call</strong>    <br>
                         +977 9861489363</p>
                 </div>
                 <div class="bcol2">
-                    <p>Write<br>
+                <strong><p>Write </strong>   <br>
                         shreejal27@gmail.com</p>
                 </div>
                 <div class="bcol3">
-                    <p>Follow <br>
+                <strong><p>Follow </strong>    <br>
                         <a href="https://www.facebook.com/shreejalchowder/" target="_blank" class="fa fa-facebook"></a>
                         <a href="https://www.instagram.com/shreejal27/" target="_blank" class="fa fa-instagram"></a>
                         <a href="#" target="_blank" class="fa fa-snapchat"></a>

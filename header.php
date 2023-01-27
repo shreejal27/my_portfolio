@@ -3,7 +3,7 @@
 <header>
   <div class="toprow">
       <div class="topleft">
-          <p><strong><a href="index.php" target="_blank">Shreejal Maharjan / </strong>Hungry Learner</a></p>
+          <p><strong><a href="index.php" target="_blank">Shreejal Maharjan </a> </strong><span id="title">/ Hungry Learner</span></p>
       </div>
       <div class="topright">
           <ul>
