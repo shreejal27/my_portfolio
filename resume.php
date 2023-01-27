@@ -10,41 +10,38 @@
         <div class="main">
             <h1>Resume</h1>
             <br><br><br><br><br><br>
-            <span><strong>Experience</strong></span>
+            <span id="text"><strong>Experience</strong></span>
                 <a href="project.php" target="_blank">
                     <button>Download CV</button></a>
             <br><br>
             <div class="row">
                 <div class="lcol">
-                <p><strong>2019-Present</strong> <br>
-                JOB POSITION <br><br>
-                COMPANY NAME <br>
-                COMPANY LOCATION<br></p>
+                <p><strong>August 2021 - December 2022</strong> <br>
+                Content Writer <br><br>
+                KPO & COMPANY PVT. LTD. <br>
+                Chabahil<br></p>
                 </div>
                 <div class="rcol">
-                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, iure molestiae. Vitae, laudantium consequatur facilis quae minima voluptas esse eos iste corrupti nobis ut? Corporis perspiciatis sit amet praesentium fugit.</p>
+                 <p>Worked as a content writer to publish content on multipletrending topics ranging from celebrities, news and lifestylearticles. </p>
                 </div>
             </div>
-            <div class="row">
-               <div class="lcol">
-                <p><strong>2017-2019</strong> <br>
-                    JOB POSITION <br><br>
-                    COMPANY NAME <br>
-                    COMPANY LOCATION<br></p>
-               </div>
-               <div class="rcol">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>
-                </div>
-           </div>
-           <br><br><br><br><br>
-           <span><strong>Education</strong></span>
-           <br><br>
+          
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+
+
+           <span id="text"><strong>Education</strong></span>
+           <br>
+           <br>
            <div class="row">
             <div class="lcol">
-             <p><strong>2015-2017</strong> <br>
-                 UNIVERSITY NAME <br>
-                 DEGREE LEVEL <br><br>
-                 UNIVERSITY LOCATION<br></p>
+             <p><strong>September 2019 - Present</strong> <br>
+                 Kathmandu BernHardt College <br>
+                 Bachelors in Computer Application <br><br>
+                 Bafal<br></p>
             </div>
             <div class="rcol">
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>           
@@ -52,16 +49,29 @@
               </div>
               <div class="row">
                 <div class="lcol">
-                 <p><strong>2014-2015</strong> <br>
-                     UNIVERSITY NAME <br>
-                     DEGREE LEVEL <br><br>
-                     UNIVERSITY LOCATION<br></p>
+                 <p><strong>April 2017 - December 2019</strong> <br>
+                     Kathmandu BernHardt Secondary School <br>
+                     +2 Management <br><br>
+                     Balkhu<br></p>
                 </div>
                 <div class="rcol">
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>           
                   </div>
                 </div>
-    </div>
+                <div class="row">
+                <div class="lcol">
+                 <p><strong>April 2016 - June 2017</strong> <br>
+                     Kathmandu BernHardt Secondary School <br>
+                     SEE <br><br>
+                     Balkhu<br></p>
+                </div>
+                <div class="rcol">
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>           
+                  </div>
+                </div>
+            </div>
+            </div>
+         
     <?php include_once "footer.php"; ?>
     </body>
 </html>
