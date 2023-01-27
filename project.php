@@ -25,17 +25,23 @@
            <a href="https://github.com/shreejal27/RockPaperScissor/" target="_blank"> <button id="b2">Source Code</button> </a> 
                  </div>
                  <div class="rcol">
-                    img1
+                    <img src="./projectImages/spr.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";>
                  </div>
              </div>
              <div class="row">
                 <div class="lcol">
-                <p>Project Name 1 <br>
-                Role Title <br><br>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit soluta suscipit perferendis repellendus cupiditate maxime pariatur dicta ea, illum possimus deserunt quo voluptas voluptatem doloribus quis? Autem possimus voluptas voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sunt omnis soluta laboriosam accusamus amet obcaecati non unde vitae. Nam labore exercitationem fugiat officia impedit provident sit numquam corrupti facere?</p>
+                <p>To Do List <br>
+                    Mini Project <br><br>
+                
+                    This is a simple project built from scratch which stores the todo list of a user. 
+                    <br><br>
+                    The mini project also has a checkbox feature which crosses the respective todo once clicked.
+                </p>
+                <a href="https://shreejal27.github.io/todo_List/" target="_blank"><button id="b1">See Live</button> </a>
+           <a href="https://github.com/shreejal27/todo_List" target="_blank"> <button id="b2">Source Code</button> </a> 
                 </div>
                 <div class="rcol">
-                    img2
+                <img src="./projectImages/todo.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";>
                 </div>
             </div>
             <div class="row">
