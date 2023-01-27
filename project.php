@@ -14,6 +14,47 @@
                     Here is the overview of some of the few projects I have completed throughout my career.
                 </p><br><br>
             </center>
+            <div class="row">
+                <div class="lcol">
+                <p>Garbage Management System <br>
+                College Project <br><br>
+                I was solely engaged in building a web application for the 4th sem project for BCA. The primary objective was to trace the regular metropolitan city garbage van and find all the nearby dustbins on the map.
+                <br>
+                <br>
+                I have also made a complain system to register complain and added a form to become a garbage van driver for the people. 
+                </p>
+                
+               
+                
+           <a href="#"><button id="b1">See Live</button> </a>
+           <a href="https://github.com/shreejal27/Garbage_Management_System" target="_blank"> <button>Source Code</button> </a> 
+                </div>
+                <div class="rcol">
+                <img src="./projectImages/garbagee.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="lcol">
+                <p>Scrap Collector<br>
+                College Project <br><br>
+                It is a e-commerce website that I built using php and is integrated to the Garbage Management System Project. I have dynamically created categories and items which are rendered from database.
+               
+                <br>
+                <br>
+                The objective of this project is to collect scrap items from people's household in exchange for the money. This project focuses on reducing the scrap thrown in the landfills.
+                </p>
+                
+               
+                
+           <a href="#"><button id="b1">See Live</button> </a>
+           <a href="https://github.com/shreejal27/Garbage_Management_System" target="_blank"> <button>Source Code</button> </a> 
+                </div>
+                <div class="rcol">
+                <img src="./projectImages/scrap.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";>
+                </div>
+            </div>
+
              <div class="row">
                  <div class="lcol">
                  <p><strong>Rock Paper Scissor  </strong> <br>
@@ -21,8 +62,8 @@
                  "Get ready to play the classic game of Rock, Paper, Scissors in a whole new way! With sleek HTML and CSS design, and dynamic JavaScript functionality, this game is sure to provide hours of entertainment. 
                  <br><br>
                  Choose your weapon and take on the computer in a battle of wits and strategy. Will you come out victorious? Play now and find out!"</p>
-            <a href="https://shreejal27.github.io/RockPaperScissor/" target="_blank"><button id="b1">See Live</button> </a>
-           <a href="https://github.com/shreejal27/RockPaperScissor/" target="_blank"> <button id="b2">Source Code</button> </a> 
+            <a href="https://shreejal27.github.io/RockPaperScissor/" target="_blank"><button >See Live</button> </a>
+           <a href="https://github.com/shreejal27/RockPaperScissor/" target="_blank"> <button >Source Code</button> </a> 
                  </div>
                  <div class="rcol">
                     <img src="./projectImages/spr.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";>
@@ -37,37 +78,20 @@
                     <br><br>
                     The mini project also has a checkbox feature which crosses the respective todo once clicked.
                 </p>
-                <a href="https://shreejal27.github.io/todo_List/" target="_blank"><button id="b1">See Live</button> </a>
-           <a href="https://github.com/shreejal27/todo_List" target="_blank"> <button id="b2">Source Code</button> </a> 
+                <br>
+                <br>
+                <br>
+                
+           <a href="https://shreejal27.github.io/todo_List/" target="_blank"><button >See Live</button> </a>
+           <a href="https://github.com/shreejal27/todo_List" target="_blank"> <button >Source Code</button> </a> 
                 </div>
                 <div class="rcol">
                 <img src="./projectImages/todo.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";>
                 </div>
             </div>
-            <div class="row">
-                <div class="lcol">
-                <p>Project Name 1 <br>
-                Role Title <br><br>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit soluta suscipit perferendis repellendus cupiditate maxime pariatur dicta ea, illum possimus deserunt quo voluptas voluptatem doloribus quis? Autem possimus voluptas voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sunt omnis soluta laboriosam accusamus amet obcaecati non unde vitae. Nam labore exercitationem fugiat officia impedit provident sit numquam corrupti facere?</p>
-                </div>
-                <div class="rcol">
-                    img3
-                </div>
-            </div>
             
          </div>
-         <script type="text/javascript">
-                    const codeButton = document.getElementById("b2");
-                    let buttonName = codeButton.innerHTML;
-                    codeButton.addEventListener("mouseover", function() {
-                    let randomCode = "&lt;html&gt;" + "<br>"+ "&lt;head&gt;";
-                    codeButton.innerHTML = "<pre>"+randomCode+"</pre>";
-
-                    });
-                    codeButton.addEventListener("mouseout", function() {
-                        codeButton.innerHTML= buttonName;
-                    });
-         </script>
+      
          <?php include_once "footer.php"; ?>
          
     </body>
