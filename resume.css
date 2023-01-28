@@ -34,7 +34,9 @@ button {
 }
 button:hover {
   background-color: #c9a9a6;
-  color: black;
+  color: whitesmoke;
+  border: 2px dotted whitesmoke;
+  cursor: pointer;
 }
 .row {
   height: 350px;

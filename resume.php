@@ -11,7 +11,7 @@
             <h1>Resume</h1>
             <br><br><br><br><br><br>
             <span id="text"><strong>Experience</strong></span>
-                <a href="project.php" target="_blank">
+                <a href="./shree.pdf" download="shreejalCV">
                     <button>Download CV</button></a>
             <br><br>
             <div class="row">
