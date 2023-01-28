@@ -26,7 +26,7 @@
                 
                
                 
-           <a href="#"><button id="b1">See Live</button> </a>
+           <button id="b1" onclick= "message()">See Live</button> 
            <a href="https://github.com/shreejal27/Garbage_Management_System" target="_blank"> <button>Source Code</button> </a> 
                 </div>
                 <div class="rcol">
@@ -47,7 +47,7 @@
                 
                
                 
-           <a href="#"><button id="b1">See Live</button> </a>
+           <button id="b1" onclick= "message()">See Live</button> 
            <a href="https://github.com/shreejal27/Garbage_Management_System" target="_blank"> <button>Source Code</button> </a> 
                 </div>
                 <div class="rcol">
@@ -93,6 +93,10 @@
          </div>
       
          <?php include_once "footer.php"; ?>
-         
+         <script>
+            function message(){
+                alert("Sorry this project is not available live at the moment.");
+            }
+         </script>
     </body>
 </html>
