@@ -30,7 +30,7 @@
            <a href="https://github.com/shreejal27/Garbage_Management_System" target="_blank"> <button>Source Code</button> </a> 
                 </div>
                 <div class="rcol">
-                <img src="./projectImages/garbagee.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";>
+                <a href="./projectImages/garbagee.png" target="_blank"> <img src="./projectImages/garbagee.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";></a>
                 </div>
             </div>
 
@@ -51,7 +51,7 @@
            <a href="https://github.com/shreejal27/Garbage_Management_System" target="_blank"> <button>Source Code</button> </a> 
                 </div>
                 <div class="rcol">
-                <img src="./projectImages/scrap.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";>
+                <a href="./projectImages/scrap.png" target="_blank"><img src="./projectImages/scrap.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";></a>
                 </div>
             </div>
 
@@ -66,7 +66,7 @@
            <a href="https://github.com/shreejal27/RockPaperScissor/" target="_blank"> <button >Source Code</button> </a> 
                  </div>
                  <div class="rcol">
-                    <img src="./projectImages/spr.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";>
+                 <a href="./projectImages/spr.png" target="_blank"><img src="./projectImages/spr.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";></a>
                  </div>
              </div>
              <div class="row">
@@ -86,7 +86,7 @@
            <a href="https://github.com/shreejal27/todo_List" target="_blank"> <button >Source Code</button> </a> 
                 </div>
                 <div class="rcol">
-                <img src="./projectImages/todo.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";>
+                <a href="./projectImages/todo.png" target="_blank"><img src="./projectImages/todo.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";></a>
                 </div>
             </div>
             

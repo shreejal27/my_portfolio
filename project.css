@@ -64,10 +64,17 @@ button:hover {
   color: whitesmoke;
   cursor: pointer;
 }
-
-
-
-
-
-
+ img {
+  -webkit-transform: scale(1.4);
+	transform: scale(1.4);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+img:hover {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.rcol{
+  overflow: hidden;
+}
 
