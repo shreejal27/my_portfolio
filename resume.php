@@ -73,24 +73,28 @@
                 
                 
                 <div class="lastrow">
-                    <strong id="text">Professional skillset</strong>
+                    <br><br>
+                    <strong id="lasttext">Professional skillset</strong>
                     <br><br><br>
-                    <ul>
+                    <ul class="list">
 
-                        <li>asdf</li>
-                        <li>asdf</li>
-                        <li>asdfasdf</li>
-                        <li>asdf</li>
-                        <li>asdf</li>
+                        <li>HTML / CSS</li>
+                        <li>Php</li>
+                        <li>Javascript</li>
+                        <li>C#</li>
+                        <li>React</li>
+                        
                     </ul>
                     <br>
-                    <strong id="text">Languages</strong>
+                    <br>
+                    <strong id="lasttext">Languages</strong>
                     <br><br><br>
-                    <ul>
+                    <ul class="list">
                         
-                        <li>asdf</li>
-                        <li>asdf</li>
-                        <li>asdfasdf</li>
+                        <li>Nepali</li>
+                        <li>Newari</li>
+                        <li>English</li>
+                        <li>Hindi</li>
                       
                     </ul>
                 </div>

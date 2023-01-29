@@ -75,13 +75,23 @@ button:hover {
   margin-top: 75px;
   margin-bottom: -75px;
   box-shadow: -10px 10px 20px 2px gray;
+ 
 }
 
-ul {
+#lasttext{
+
+  font-size: 25px;
+  margin: 7%;
+}
+
+.list {
    display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 20px;
+    margin-left: 9%;
 }
 li{
    padding: 10px;
+  
+   list-style: square;
 }
