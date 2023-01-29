@@ -10,7 +10,7 @@
         <div class="main">
             <h1>Resume</h1>
             <br><br><br><br><br><br>
-            <span id="text"><strong>Experience</strong></span>
+            <span ><strong id="text">Experience</strong></span>
                 <a href="./shree.pdf" download="shreejalCV">
                     <button>Download CV</button></a>
             <br><br>
@@ -33,7 +33,7 @@
            <br>
 
 
-           <span id="text"><strong>Education</strong></span>
+           <span ><strong id="text">Education</strong></span>
            <br>
            <br>
            <div class="row">
@@ -69,8 +69,34 @@
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>           
                   </div>
                 </div>
+                
+                
+                
+                <div class="lastrow">
+                    <strong id="text">Professional skillset</strong>
+                    <br><br><br>
+                    <ul>
+
+                        <li>asdf</li>
+                        <li>asdf</li>
+                        <li>asdfasdf</li>
+                        <li>asdf</li>
+                        <li>asdf</li>
+                    </ul>
+                    <br>
+                    <strong id="text">Languages</strong>
+                    <br><br><br>
+                    <ul>
+                        
+                        <li>asdf</li>
+                        <li>asdf</li>
+                        <li>asdfasdf</li>
+                      
+                    </ul>
+                </div>
+         
             </div>
-            </div>
+        </div>
          
     <?php include_once "footer.php"; ?>
     </body>
