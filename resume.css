@@ -79,7 +79,6 @@ button:hover {
 }
 
 #lasttext{
-
   font-size: 25px;
   margin: 7%;
 }
@@ -92,6 +91,5 @@ button:hover {
 }
 li{
    padding: 10px;
-  
    list-style: square;
 }

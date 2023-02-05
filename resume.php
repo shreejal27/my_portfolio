@@ -25,14 +25,11 @@
                  <p>Worked as a content writer to publish content on multipletrending topics ranging from celebrities, news and lifestylearticles. </p>
                 </div>
             </div>
-          
            <br>
            <br>
            <br>
            <br>
            <br>
-
-
            <span ><strong id="text">Education</strong></span>
            <br>
            <br>
@@ -69,15 +66,11 @@
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>           
                   </div>
                 </div>
-                
-                
-                
                 <div class="lastrow">
                     <br><br>
                     <strong id="lasttext">Professional skillset</strong>
                     <br><br><br>
                     <ul class="list">
-
                         <li>HTML / CSS</li>
                         <li>Php</li>
                         <li>Javascript</li>
@@ -90,12 +83,10 @@
                     <strong id="lasttext">Languages</strong>
                     <br><br><br>
                     <ul class="list">
-                        
                         <li>Nepali</li>
                         <li>Newari</li>
                         <li>English</li>
                         <li>Hindi</li>
-                      
                     </ul>
                 </div>
          

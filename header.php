@@ -7,7 +7,7 @@
       </div>
       <div class="topright">
           <ul>
-              <a href="index.php"><li class="active">About Me</li></a>
+              <a href="index.php"><li>About Me</li></a>
               <a href="resume.php"><li>Resume</li></a>
               <a href="project.php"><li>Projects</li></a>
               <a href="contact.php"><li>Contacts</li></a>

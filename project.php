@@ -55,6 +55,29 @@
                 </div>
             </div>
 
+            <div class="row">
+                <div class="lcol">
+                <p>Weather App <br>
+                    API Project <br><br>
+                
+                    This is a simple weather showing app using an API from openweathermap. I have also added a feature where the background will have the image of the city you searched. 
+                    <br><br>
+                    This project has a shuffled background image. So, each time a user opens the app, they will see a different background.
+                </p>
+                <br>
+                <br>
+                
+                
+           <a href="https://shreejal27.github.io/weatherApp/" target="_blank"><button >See Live</button> </a>
+           <a href="https://github.com/shreejal27/weatherApp" target="_blank"> <button >Source Code</button> </a> 
+                </div>
+                <div class="rcol">
+                <a href="./projectImages/weather.png" target="_blank"><img src="./projectImages/weather.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";></a>
+                </div>
+            </div>
+
+
+
              <div class="row">
                  <div class="lcol">
                  <p><strong>Rock Paper Scissor  </strong> <br>
@@ -65,6 +88,7 @@
             <a href="https://shreejal27.github.io/RockPaperScissor/" target="_blank"><button >See Live</button> </a>
            <a href="https://github.com/shreejal27/RockPaperScissor/" target="_blank"> <button >Source Code</button> </a> 
                  </div>
+
                  <div class="rcol">
                  <a href="./projectImages/spr.png" target="_blank"><img src="./projectImages/spr.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";></a>
                  </div>

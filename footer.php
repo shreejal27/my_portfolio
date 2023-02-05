@@ -2,7 +2,7 @@
         <div class="bottomrow">
             <div class="bottomleft" id="btn">
                 <p> &copy;
-                 <strong> 2021 by shreejal </strong>   <br>
+                 <strong> 2021 by Shreejal </strong>   <br>
                     <span onClick="onClick()">HelloWorld </span>  </p>
             
                     
