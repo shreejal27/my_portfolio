@@ -3,9 +3,23 @@
     html{
         font-size: 55%;
     }
+    .para{
+        margin-top: 3rem;
+    }
+    a.fa.fa{
+        padding: 1rem;
+      }
+  
+
 }
 @media(max-width: 768px){
     html{
         font-size: 45%;
+    }
+    a.fa.fa{
+        padding: 0.3rem;
+      }
+    .para{
+        margin-top: 4rem;
     }
 }

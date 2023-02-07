@@ -5,6 +5,7 @@
 <meta http-equiv='cache-control' content='no-cache'> 
 <meta http-equiv='expires' content='0'> 
 <meta http-equiv='pragma' content='no-cache'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <title>Shreejal's Portfolio</title>
     <link rel="stylesheet" href="index.css">
@@ -33,7 +34,7 @@
              
 
                 <div class="name">
-                    <h1><strong>Shreejal</strong></h1>
+                    <h1><strong> <p>Shreejal</p></strong></h1>
                     <h1>Maharjan</h1>
                 </div>
                 <div>
