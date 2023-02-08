@@ -1,3 +1,7 @@
+html{
+  /* font-size: 10px; */
+  font-size:  65%;
+}
 .toprow {
   height: 100px;
   width: 100%;
@@ -11,12 +15,12 @@
 .topleft p {
   padding-top: 5%;
   padding-left: 10%;
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 #title{
   display: inline-block;
-  font-size: 20px;
+  font-size: 2rem;
 
 }
 
@@ -32,8 +36,8 @@
 .topright ul li {
   display: inline-block;
   /* float: left; */
-  padding: 20px;
-  font-size: 20px;
+  padding: 2rem;
+  font-size: 2rem;
   background-position: right bottom;
 }
 
@@ -52,9 +56,9 @@ a {
 
 
 .fa {
-  padding: 22px;
-  font-size: 30px;
-  width: 30px;
+  padding: 2.2rem;
+  font-size: 3rem;
+  width: 3rem;
   text-align: center;
   text-decoration: none;
 }
@@ -72,7 +76,7 @@ a {
   height: 100px;
   width: 100%;
   background-color: seashell;
-  font-size: 20px;
+  font-size: 2rem;
 }
 .bottomleft {
   height: 100%;
@@ -102,8 +106,8 @@ a {
   padding-top: 15%;
 }
 .bcol3 .fa {
-  padding: 3px;
-  font-size: 20px;
+  padding: 0.3rem;
+  font-size: 2rem;
   text-align: center;
   text-decoration: none;
 }
@@ -118,7 +122,7 @@ a {
   position: fixed;
   top: 0;
   right: 0;
-  width: 10px;
+  width: 1rem;
   height: 100%;
   z-index: 1;
 }
@@ -126,7 +130,7 @@ a {
   position: fixed;
   top: 0;
   right: 0;
-  width: 10px;
+  width: 1rem;
   background: linear-gradient(to top, black, gray);
   z-index: 1;
 }
@@ -150,3 +154,56 @@ a {
 }
 
 
+
+@media(max-width: 998px){
+  html{
+      font-size: 55%;
+  }
+  .topleft{
+    width: 45%;
+  }
+  .topleft p{
+    padding-left: 3%;
+    /* font-size: 2.5rem; */
+  }
+  .topleft #title{
+    font-size: 1.7rem;
+  }
+  .topright{
+    width: 55%;
+  }
+  .topright ul{
+    padding-left: 20%;
+    padding-top: 2.5rem;
+  }
+  .topright ul li{
+    padding: 1rem;
+   
+  }
+
+  .bottomleft{
+    width: 35%;
+  }
+  .bottomright{
+    width: 65%;
+  }
+  .bottomright .bcol1 p, .bcol2 p, .bcol3 p {
+    padding-top: 5%;
+}
+
+
+
+}
+@media(max-width: 768px){
+  html{
+      font-size: 45%;
+  }
+  .topright ul{
+    padding-left: 15%;
+  }
+  .topright ul li{
+    padding: 1rem;
+   
+  }
+
+}

@@ -1,3 +1,4 @@
+<?php include_once "header.php"; ?>
 <div id=progressbar></div>
     <div id=scrollpath></div>
 <header>

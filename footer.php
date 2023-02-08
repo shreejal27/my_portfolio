@@ -1,6 +1,6 @@
 <footer>
         <div class="bottomrow">
-            <div class="bottomleft" id="btn">
+            <div class="bottomleft" id="btn1">
                 <p> &copy;
                  <strong> 2021 by Shreejal </strong>   <br>
                     <span onClick="onClick()">HelloWorld </span>  </p>
