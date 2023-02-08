@@ -33,12 +33,17 @@ h1 {
 }
 .lcol {
   float: left;
+  height: 350px;
   width: 55%;
+  overflow: scroll;
+        /* white-space: nowrap; */
+  
 }
 .lcol p {
   padding: 30px;
   font-size: 18px;
   text-align: left;
+
 }
 .rcol {
   height: 100%;

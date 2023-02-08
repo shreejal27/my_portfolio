@@ -89,12 +89,12 @@ hr {
   height: 10%;
   width: 100%;
   margin-top: 5%;
-  margin-left: 5%;
+  text-align: center;
 }
 .fa {
-  padding: 2.2rem;
+  padding: 2rem;
   font-size: 3rem;
-  width: 3rem;
+  width: 2.5rem;
   text-align: center;
   text-decoration: none;
 }

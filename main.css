@@ -3,7 +3,7 @@ html{
   font-size:  65%;
 }
 .toprow {
-  height: 100px;
+  height: 10rem;
   width: 100%;
   background-color: seashell;
 }
@@ -73,7 +73,7 @@ a {
   opacity: 0.7;
 }
 .bottomrow {
-  height: 100px;
+  height: 10rem;
   width: 100%;
   background-color: seashell;
   font-size: 2rem;
@@ -190,7 +190,9 @@ a {
   .bottomright .bcol1 p, .bcol2 p, .bcol3 p {
     padding-top: 5%;
 }
-
+  .bcol3 a.fa.fa{
+    padding: 0;
+  }
 
 
 }
