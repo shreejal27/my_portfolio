@@ -209,3 +209,46 @@ a {
   }
 
 }
+
+@media (min-width: 320px) and (max-width: 481px){
+  html{
+      font-size: 40%;
+  }
+
+  .topleft p{
+    margin-top: 1.5rem;
+    font-size: 2.1rem;
+  }
+  .topleft #title{
+    font-size: 1.5rem;
+  }
+  .topright ul{
+    margin-top: 1rem;
+
+    
+  }
+  .topright ul li{
+    padding: 0.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .bottomleft{
+    width: 30%;
+  }
+  .bottomright{
+    width: 70%;
+  }
+  .bottomright .bcol1 p, .bcol2 p, .bcol3 p {
+    padding-top: 5%;
+}
+  .bcol3 a.fa.fa{
+    padding: 0rem;
+  }
+
+  .bcol3 a.fa.fa-pinterest, .bcol3 a.fa.fa-snapchat{
+    display: none;
+  }
+
+
+
+}

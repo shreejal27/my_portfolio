@@ -34,7 +34,7 @@
              
 
                 <div class="name">
-                    <h1><strong> <p>Shreejal</p></strong></h1>
+                    <h1><strong> Shreejal</strong></h1>
                     <h1>Maharjan</h1>
                 </div>
                 <div>
