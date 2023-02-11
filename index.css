@@ -146,3 +146,52 @@ button:hover {
   font-size: larger;
 }
 
+@media(max-width: 998px){
+  html{
+      font-size: 55%;
+  }
+  .para{
+      margin-top: 3rem;
+  }
+  .mainboxcol1 .iconbar a.fa.fa{
+      padding: 0.9rem;
+    }
+
+
+}
+@media(max-width: 768px){
+  html{
+      font-size: 45%;
+  }
+  a.fa.fa{
+      padding: 0.3rem;
+    }
+  .para{
+      margin-top: 4rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 481px){
+ 
+  .para{
+      margin-top: 3rem;
+  }
+  .mainboxcol1 .iconbar a.fa.fa{
+
+      padding: 1.5rem;
+    }
+    body {
+      font-size: 1.2rem;
+    }
+    .header {
+      padding: 0.5px;
+    }
+    .content {
+      padding: 0.5px;
+    }
+    #btn.image{
+      height: 15rem;
+      width: 15rem;
+    }
+
+}
