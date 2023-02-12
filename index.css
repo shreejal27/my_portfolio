@@ -7,6 +7,9 @@ html{
   /* font-size: 10px; */
   font-size:  65%;
 }
+body {
+  width: 100%;
+}
 .body {
   height: 90rem;
   width: 100%;
@@ -145,8 +148,7 @@ button:hover {
   margin: 2rem;
   font-size: larger;
 }
-
-@media(max-width: 998px){
+/* @media(min-width: 1024px) and (max-width: 1200px){
   html{
       font-size: 55%;
   }
@@ -159,7 +161,21 @@ button:hover {
 
 
 }
-@media(max-width: 768px){
+
+@media(min-width: 768px) and (max-width: 1024px){
+  html{
+      font-size: 55%;
+  }
+  .para{
+      margin-top: 3rem;
+  }
+  .mainboxcol1 .iconbar a.fa.fa{
+      padding: 0.9rem;
+    }
+
+
+}
+@media(min-width: 480px) and (max-width: 768px){
   html{
       font-size: 45%;
   }
@@ -169,9 +185,14 @@ button:hover {
   .para{
       margin-top: 4rem;
   }
+  #btn.image{
+    height: 18rem;
+    width: 18rem;
+  }
+
 }
 
-@media (min-width: 320px) and (max-width: 481px){
+@media (min-width: 320px) and (max-width: 480px){
  
   .para{
       margin-top: 3rem;
@@ -194,4 +215,4 @@ button:hover {
       width: 15rem;
     }
 
-}
+} */
