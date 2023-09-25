@@ -8,15 +8,20 @@ if(($username== $_POST['username'] && $password==$_POST['password']) ||  ($_POST
     alert ("You Have Access To All The Recorded Datas")
     </script>';
 
-$host= "sql6.freemysqlhosting.net";
-$user= "sql6585225";
-$password= "3Pk2QBNdws";
-$database= "sql6585225";
+    $database_host = 'aws.connect.psdb.cloud';
+    $database_user = 'cb1nlt9315op7ha7nv5u';
+    $database_password = 'pscale_pw_18cS7KVFJu1FQqxZu9yUKLxnRN9sns73X0IsQMKpsfY';
+    $database_name = 'portfolio_db';
 
-$connection= mysqli_connect($host, $user, $password, $database);
- if (mysqli_connect_errno()) {
-    echo  mysqli_connect_error();
- } 
+    // Create a new mysqli instance with SSL options
+$con = mysqli_init();
+mysqli_ssl_set($con, NULL, NULL, NULL, NULL, NULL);
+
+// Establish a secure connection
+if (!mysqli_real_connect($con, $database_host, $database_user, $database_password, $database_name, 3306, NULL, MYSQLI_CLIENT_SSL)) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
 
 ?>
 <style>
@@ -45,17 +50,17 @@ table.center{
 
 <?php
 
-    $query= "Select * from info";
+    $query= "Select * from portfoliodata";
 
-    $result= mysqli_query($connection, $query);
+    $result= mysqli_query($con, $query);
 
 
 
     while($row= mysqli_fetch_assoc($result)){
         ?>
         <tr>
-            <td><?php echo $row["firstName"]?></td> 
-            <td><?php echo $row["lastName"]?></td> 
+            <td><?php echo $row["firstname"]?></td> 
+            <td><?php echo $row["lastname"]?></td> 
             <td><?php echo $row["email"]?></td> 
             <td><?php echo $row["message"]?></td> 
 

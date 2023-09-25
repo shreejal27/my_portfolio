@@ -2,11 +2,20 @@
 // database connection code
 // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
 
-$con = mysqli_connect('sql6.freesqldatabase.com', 'sql6585225', '3Pk2QBNdws','sql6585225');
-// $con = mysqli_connect('sql301.epizy.com', 'epiz_33235304', 'VyiHdg6fnyyR','epiz_33235304_info');
-if (mysqli_connect_errno()) {
-    echo  mysqli_connect_error();
-} 
+$database_host = 'aws.connect.psdb.cloud';
+$database_user = 'cb1nlt9315op7ha7nv5u';
+$database_password = 'pscale_pw_18cS7KVFJu1FQqxZu9yUKLxnRN9sns73X0IsQMKpsfY';
+$database_name = 'portfolio_db';
+
+// Create a new mysqli instance with SSL options
+$con = mysqli_init();
+mysqli_ssl_set($con, NULL, NULL, NULL, NULL, NULL);
+
+// Establish a secure connection
+if (!mysqli_real_connect($con, $database_host, $database_user, $database_password, $database_name, 3306, NULL, MYSQLI_CLIENT_SSL)) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
 
 // get the post records
 $txtfirstName = $_POST['firstName'];
@@ -16,7 +25,7 @@ $txtemail = $_POST['email'];
 $txtmessage = $_POST['message'];
 
 // database insert SQL code
-$sql = "INSERT INTO info (firstName, lastName, email, message) VALUES ('$txtfirstName', '$txtlastName', '$txtemail', '$txtmessage')";
+$sql = "INSERT INTO portfoliodata(firstName, lastName, email, message) VALUES ('$txtfirstName', '$txtlastName', '$txtemail', '$txtmessage')";
 
 // insert in database 
 $rs = mysqli_query($con, $sql);
