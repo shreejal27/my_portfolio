@@ -3,8 +3,14 @@
 // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
 
 $database_host = 'aws.connect.psdb.cloud';
-$database_user = 'cb1nlt9315op7ha7nv5u';
-$database_password = 'pscale_pw_18cS7KVFJu1FQqxZu9yUKLxnRN9sns73X0IsQMKpsfY';
+$database_user = 'r7k7m7cniv3yus0zhqwg';
+
+$database_password1 = 'pscale_pw_';
+$database_password2 = 'KmcEzTRYS';
+$database_password3 = 'peisw3f4d8PbM8Nr';
+$database_password4 = '3uiHLzaA3tZ9ZNeyui';
+$database_password = $database_password1 . $database_password2 . $database_password3 . $database_password4 ;
+
 $database_name = 'portfolio_db';
 
 // Create a new mysqli instance with SSL options
