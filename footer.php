@@ -20,9 +20,8 @@
                 <strong><p>Follow </strong>    <br>
                         <a href="https://www.facebook.com/shreejalchowder/" target="_blank" class="fa fa-facebook"></a>
                         <a href="https://www.instagram.com/shreejal27/" target="_blank" class="fa fa-instagram"></a>
-                        <a href="#" target="_blank" class="fa fa-snapchat"></a>
-                        <a href="#" target="_blank" class="fa fa-twitter"></a>
-                        <a href="#" target="_blank" class="fa fa-pinterest"></a>
+                        <a href="https://twitter.com/shreejal27" target="_blank" class="fa fa-2x fa-twitter"></a>
+                        <a href="https://www.linkedin.com/in/shreejal27/" target="_blank" class="fa fa-2x fa-linkedin"></a>
                     </p>
                 </div>
             </div>
