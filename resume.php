@@ -11,7 +11,7 @@
             <h1>Resume</h1>
             <br><br><br><br><br><br>
             <span ><strong id="text">Experience</strong></span>
-                <a href="./shree.pdf" download="shreejalCV">
+                <a href="./shree.pdf" download="shreejal_cv">
                     <button>Download CV</button></a>
             <br><br>
             <div class="row">

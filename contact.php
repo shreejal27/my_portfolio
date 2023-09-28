@@ -12,13 +12,13 @@
         <h1>Let's talk</h1><br><br><br>
           <form action="data.php" method="post">
             <label>First name</label><br>
-            <input type="text" name="firstName" placeholder="Your First name" autofocus required  pattern="[a-zA-Z]+" title="Please Enter Alphabets Only || Spaces ARe NOt Allowed"><br>
+            <input type="text" name="firstName" placeholder="Your First name" autofocus required  pattern="[a-zA-Z]+" title="Please enter alphabets only || Spaces are not allowed"><br>
             <label>Last name</label><br>
-            <input type="text" name="lastName"  placeholder="Your Last name" required pattern="[A-Za-z]+" title="Please Enter Alphabets Only || Spaces ARe NOt Allowed"><br>
+            <input type="text" name="lastName"  placeholder="Your Last name" required pattern="[A-Za-z]+" title="Please enter alphabets only || Spaces are not allowed"><br>
             <label>Email</label><br>
             <input type="text" name="email"  placeholder="Your email here" required pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"><br>
             <label>Message</label><br>
-            <textarea rows="1" cols="50" wrap="physical" name="message" placeholder="Type your message here."required  pattern="[A-Za-z0-9]+ " title="Dont Use Special Characters"></textarea>
+            <textarea rows="1" cols="50" wrap="physical" name="message" placeholder="Type your message here."required  pattern="[A-Za-z0-9]+ " title="Special characters are not available"></textarea>
             <input type="submit" value="Submit">
           </form>
         </div>
