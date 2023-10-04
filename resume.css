@@ -58,6 +58,8 @@ button:hover {
 .lcol p {
   padding: 15%;
   padding-top: 20%;
+  font-size: 18px;
+  text-align: left;
 }
 .rcol {
   height: 100%;

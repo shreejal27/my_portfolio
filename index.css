@@ -47,7 +47,7 @@ body {
   width: 50%;
   background-color: #c9a9a6;
   float: left;
-  box-shadow: -1rem 1rem 2rem 0.2rem gray;
+  box-shadow: -4px 4px 12px 1px gray;
 }
 .mainboxcol2 {
   height: 100%;

@@ -16,6 +16,17 @@
             <br><br>
             <div class="row">
                 <div class="lcol">
+                <p><strong>March 2023 - July 2023</strong> <br>
+                Laravel Developer (Intern) <br><br>
+                Talent Connects <br>
+                Ekantakuna<br></p>
+                </div>
+                <div class="rcol">
+                 <p>Worked as an intern, contributed to several modules for the company's HRIS software including the Raise Ticket module, and Attendance module, developed the landing page, and prepared complete system documentation. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="lcol">
                 <p><strong>August 2021 - December 2022</strong> <br>
                 Content Writer <br><br>
                 KPO & COMPANY PVT. LTD. <br>
@@ -25,6 +36,7 @@
                  <p>Worked as a content writer to publish content on multipletrending topics ranging from celebrities, news and lifestylearticles. </p>
                 </div>
             </div>
+        
            <br>
            <br>
            <br>
