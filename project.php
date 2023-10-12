@@ -16,28 +16,43 @@
             </center>
             <div class="row">
                 <div class="lcol">
-                <p>Garbage Management System <br>
-                College Project <br><br>
-                I was solely engaged in building a web application for the 4th sem project for BCA. The primary objective was to trace the regular metropolitan city garbage van and find all the nearby dustbins on the map.
-                <br>
-                <br>
-                I have also made a complain system to register complain and added a form to become a garbage van driver for the people. 
-                </p>
-                
-               
-                
-           <button id="b1" onclick= "message()">See Live</button> 
-           <a href="https://github.com/shreejal27/Garbage_Management_System" target="_blank"> <button>Source Code</button> </a> 
+                    <p>Hamro Yatra (Public Vehicle Tracker) <br>
+                    College Project (BCA 6th Sem) <br><br>
+                    Built this comprehensive web application whose main objective was to track desired public vehicle on the map. The project also implement Haversine algorithm to find the nearest vehicle stop from the user's location.
+
+                    <br>
+                    <br>
+                    Likewise, users could calculate their fare using the given fare calculator as well as see the pre defined routes of each registered public vehicle.
+                    </p>
+                    <button id="b1" onclick= "message()">See Live</button> 
+                    <a href="https://github.com/shreejal27/publicVechicle_Tracker" target="_blank"> <button>Source Code</button> </a> 
                 </div>
                 <div class="rcol">
-                <a href="./projectImages/garbagee.png" target="_blank"> <img src="./projectImages/garbagee.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";></a>
+                    <a href="./projectImages/hamroYatra.png" target="_blank"> <img src="./projectImages/hamroYatra.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="lcol">
+                    <p>Garbage Management System <br>
+                    College Project (BCA 4th Sem) <br><br>
+                    I was solely engaged in building this web application whose primary objective was to trace the regular metropolitan city garbage van and find all the nearby dustbins on the map.
+                    <br>
+                    <br>
+                    I have also made a complain system to register complain and added a form to become a garbage van driver for the people. 
+                    </p>
+                    <button id="b1" onclick= "message()">See Live</button> 
+                    <a href="https://github.com/shreejal27/Garbage_Management_System" target="_blank"> <button>Source Code</button> </a> 
+                </div>
+                <div class="rcol">
+                    <a href="./projectImages/garbagee.png" target="_blank"> <img src="./projectImages/garbagee.png" alt="project1 image" width="100%" height="100%"  style="object-fit:cover";></a>
                 </div>
             </div>
 
             <div class="row">
                 <div class="lcol">
                 <p>Scrap Collector<br>
-                College Project <br><br>
+                College Project  (BCA 5th Sem)<br><br>
                 It is a e-commerce website that I built using php and is integrated to the Garbage Management System Project. I have dynamically created categories and items which are rendered from database.
                
                 <br>
@@ -45,7 +60,6 @@
                 The objective of this project is to collect scrap items from people's household in exchange for the money. This project focuses on reducing the scrap thrown in the landfills.
                 </p>
                 
-               
                 
            <button id="b1" onclick= "message()">See Live</button> 
            <a href="https://github.com/shreejal27/Garbage_Management_System" target="_blank"> <button>Source Code</button> </a> 
