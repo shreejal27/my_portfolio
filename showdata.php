@@ -4,6 +4,21 @@
 <head>
     <title>Your Page Title</title>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Include jQuery, Bootstrap, and DataTables libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3/dist/js/bootstrap.min.js"></script>
+    <link href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap5.min.js"></script>
+
+    <style>
+        body {
+            background: #ffe4c4;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -41,73 +56,54 @@
         if (!mysqli_real_connect($con, $database_host, $database_user, $database_password, $database_name, 3306, NULL, MYSQLI_CLIENT_SSL)) {
             die("Connection failed: " . mysqli_connect_error());
         }
-
-
         ?>
-        <style>
-            * {
-                background: #ffe4c4;
-            }
-
-            table,
-            th,
-            td {
-                border: 1px solid green;
-                border-collapse: collapse;
-                text-align: center;
-            }
-
-            table.center {
-                margin-left: auto;
-                margin-right: auto;
-            }
-        </style>
 
         <br>
-        <center>
-            <h1> All Recorded Datas </h1>
-        </center>
-        <br><br></br>
-        <table class="center">
+        <div class="container">
+            <h1 class="text-center">All Recorded Datas</h1>
+            <br><br>
+            <table class="table table-striped" id="table">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Message</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    $query = "Select * from portfoliodata";
+                    $result = mysqli_query($con, $query);
 
-            <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Email</th>
-                <th>message</th>
-            </tr>
-
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        ?>
+                        <tr>
+                            <td>
+                                <?php echo $row["firstname"] ?>
+                            </td>
+                            <td>
+                                <?php echo $row["lastname"] ?>
+                            </td>
+                            <td>
+                                <?php echo $row["email"] ?>
+                            </td>
+                            <td>
+                                <?php echo $row["message"] ?>
+                            </td>
+                        </tr>
+                        <?php
+                    }
+                    ?>
+                </tbody>
+            </table>
+        </div>
+        <script>
+            $(document).ready(function () {
+                $('#table').DataTable();
+            });
+        </script>
             <?php
-
-            $query = "Select * from portfoliodata";
-
-            $result = mysqli_query($con, $query);
-
-
-
-            while ($row = mysqli_fetch_assoc($result)) {
-                ?>
-                <tr>
-                    <td>
-                        <?php echo $row["firstname"] ?>
-                    </td>
-                    <td>
-                        <?php echo $row["lastname"] ?>
-                    </td>
-                    <td>
-                        <?php echo $row["email"] ?>
-                    </td>
-                    <td>
-                        <?php echo $row["message"] ?>
-                    </td>
-
-                </tr>
-                <?php
-            }
-            ?>
-        </table>
-
-        <?php
     } else {
         echo '<script>
         Swal.fire({
@@ -122,8 +118,6 @@
     </script>';
     }
     ?>
-
-
 </body>
 
 </html>
