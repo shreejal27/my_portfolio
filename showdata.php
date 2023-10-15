@@ -67,6 +67,7 @@
             <table class="table table-striped" id="table">
                 <thead>
                     <tr>
+                        <th>SN</th>
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Email</th>
@@ -83,6 +84,10 @@
                         ?>
                         <tr>
                             <td>
+                                <?php echo $row["id"] ?>
+                            </td>
+
+                            <td>
                                 <?php echo $row["firstname"] ?>
                             </td>
                             <td>
@@ -94,9 +99,7 @@
                             <td>
                                 <?php echo $row["message"] ?>
                             </td>
-                            <td>
-                                <a href="update.php?id=<?php echo $row["id"] ?>" class="btn btn-primary"><i
-                                        class="fa-regular fa-pen-to-square"></i></a>
+                            <td class="text-center">
                                 <a href="delete.php?id=<?php echo $row["id"] ?>" class="btn btn-danger"><i
                                         class="fa-solid fa-trash"></i></a>
                             </td>
@@ -112,7 +115,9 @@
         </div>
         <script>
             $(document).ready(function () {
-                $('#table').DataTable();
+                $('#table').DataTable({
+                    "order": [[0, "desc"]] // Sort by the first column (SN) in descending order
+                });
             });
         </script>
         <?php
