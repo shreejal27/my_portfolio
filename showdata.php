@@ -13,11 +13,13 @@
     <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap5.min.js"></script>
 
+    <!-- for fontawesome -->
+    <script src="https://kit.fontawesome.com/74ddeb49ef.js" crossorigin="anonymous"></script>
+
     <style>
         body {
             background: #ffe4c4;
         }
-
     </style>
 </head>
 
@@ -59,7 +61,7 @@
         ?>
 
         <br>
-        <div class="container">
+        <div class="container mb-5">
             <h1 class="text-center">All Recorded Datas</h1>
             <br><br>
             <table class="table table-striped" id="table">
@@ -69,6 +71,7 @@
                         <th>Last Name</th>
                         <th>Email</th>
                         <th>Message</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -91,6 +94,15 @@
                             <td>
                                 <?php echo $row["message"] ?>
                             </td>
+                            <td>
+                                <a href="update.php?id=<?php echo $row["id"] ?>" class="btn btn-primary"><i
+                                        class="fa-regular fa-pen-to-square"></i></a>
+                                <a href="delete.php?id=<?php echo $row["id"] ?>" class="btn btn-danger"><i
+                                        class="fa-solid fa-trash"></i></a>
+                            </td>
+
+
+
                         </tr>
                         <?php
                     }
@@ -103,7 +115,7 @@
                 $('#table').DataTable();
             });
         </script>
-            <?php
+        <?php
     } else {
         echo '<script>
         Swal.fire({
