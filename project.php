@@ -18,7 +18,7 @@
         </center>
         <div class="row">
             <div class="lcol">
-                <p>Hamro Yatra (Public Vehicle Tracker) <br>
+                <p><strong>Hamro Yatra (Public Vehicle Tracker) </strong><br>
                     College Project (BCA 6th Sem) <br><br>
                     Built this comprehensive web application whose main objective was to track desired public vehicle on
                     the map. The project also implement Haversine algorithm to find the nearest vehicle stop from the
@@ -41,7 +41,7 @@
 
         <div class="row">
             <div class="lcol">
-                <p>Garbage Management System <br>
+                <p><strong>Garbage Management System </strong><br>
                     College Project (BCA 4th Sem) <br><br>
                     I was solely engaged in building this web application whose primary objective was to trace the
                     regular metropolitan city garbage van and find all the nearby dustbins on the map.
@@ -62,7 +62,7 @@
 
         <div class="row">
             <div class="lcol">
-                <p>Scrap Collector<br>
+                <p><strong>Scrap Collector</strong><br>
                     College Project (BCA 5th Sem)<br><br>
                     It is a e-commerce website that I built using php and is integrated to the Garbage Management System
                     Project. I have dynamically created categories and items which are rendered from database.
@@ -86,7 +86,7 @@
 
         <div class="row">
             <div class="lcol">
-                <p>Weather App <br>
+                <p><strong>Weather App </strong><br>
                     API Project <br><br>
 
                     This is a simple weather showing app using an API from openweathermap. I have also added a feature
@@ -133,7 +133,7 @@
         </div>
         <div class="row">
             <div class="lcol">
-                <p>To Do List <br>
+                <p><strong>To Do List </strong>  <br>
                     Mini Project <br><br>
 
                     This is a simple project built from scratch which stores the todo list of a user.
@@ -149,6 +149,24 @@
             </div>
             <div class="rcol">
                 <a href="./projectImages/todo.png" target="_blank"><img src="./projectImages/todo.png"
+                        alt="project1 image" width="100%" height="100%" style="object-fit:cover" ;></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="lcol">
+                <p><strong>Find The Egg </strong> <br>
+                    Mini Game <br><br>
+                    Embark on a thrilling Egg Hunt Adventure that combines the latest in HTML and CSS design with dynamic JavaScript features. 
+                    <br><br>
+                    Your mission is to search for hidden eggs across series of difficulty level and using your keen observation skills to uncover these treasures hidden in plain sight.
+                </p>
+                <a href="https://shreejal27.github.io/treasureHunt/" target="_blank"><button>See Live</button> </a>
+                <a href="https://github.com/shreejal27/treasureHunt" target="_blank"> <button>Source Code</button>
+                </a>
+            </div>
+
+            <div class="rcol">
+                <a href="./projectImages/eggHunt.png" target="_blank"><img src="./projectImages/eggHunt.png"
                         alt="project1 image" width="100%" height="100%" style="object-fit:cover" ;></a>
             </div>
         </div>
