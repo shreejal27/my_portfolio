@@ -3,33 +3,38 @@
   padding: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-html{
+
+html {
   /* font-size: 10px; */
-  font-size:  65%;
+  font-size: 65%;
 }
+
 body {
   width: 100%;
 }
+
 .body {
   height: 90rem;
   width: 100%;
   position: relative;
   background-color: seashell;
   font-size: 1.5rem;
-
 }
+
 .col1 {
   height: 100%;
   width: 40%;
   background-color: #f2d2bd;
   float: left;
 }
+
 .col2 {
   height: 100%;
   width: 60%;
   background-color: seashell;
   float: left;
 }
+
 .body .mainbox {
   height: 60%;
   width: 60%;
@@ -42,6 +47,7 @@ body {
   margin: auto;
   margin-left: 15%;
 }
+
 .mainboxcol1 {
   height: 100%;
   width: 50%;
@@ -49,12 +55,14 @@ body {
   float: left;
   box-shadow: -4px 4px 12px 1px gray;
 }
+
 .mainboxcol2 {
   height: 100%;
   width: 50%;
   background-color: seashell;
   float: left;
 }
+
 div.image {
   height: 20rem;
   width: 20rem;
@@ -66,15 +74,18 @@ div.image {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-#btn{
+
+#btn {
   margin-top: 10%;
 }
+
 .name {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding-top: 7%;
   text-align: center;
 
 }
+
 hr {
   height: 0.05rem;
   width: 20%;
@@ -83,17 +94,20 @@ hr {
   background-color: black;
   border-color: black;
 }
+
 .job {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding-top: 8%;
   text-align: center;
 }
+
 .iconbar {
   height: 10%;
   width: 100%;
   margin-top: 5%;
   text-align: center;
 }
+
 .fa {
   padding: 2rem;
   font-size: 3rem;
@@ -101,6 +115,7 @@ hr {
   text-align: center;
   text-decoration: none;
 }
+
 .fa-facebook,
 .fa-instagram,
 .fa-snapchat,
@@ -108,19 +123,23 @@ hr {
 .fa-pinterest {
   color: black;
 }
+
 .fa:hover {
   opacity: 0.7;
 }
+
 .info1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 6rem;
   margin: 2rem;
 }
+
 .info2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 3rem;
   margin: 2rem;
 }
+
 .button {
   height: 17%;
   width: 90%;
@@ -128,6 +147,7 @@ hr {
   padding: 0.5rem;
   display: inline-block;
 }
+
 button {
   height: 5rem;
   width: 16rem;
@@ -139,15 +159,18 @@ button {
   transition: 0.6s ease;
   outline: none;
 }
+
 button:hover {
   background-color: #c9a9a6;
   color: black;
   cursor: pointer;
 }
+
 .para {
   margin: 2rem;
   font-size: larger;
 }
+
 /* @media(min-width: 1024px) and (max-width: 1200px){
   html{
       font-size: 55%;
@@ -190,29 +213,77 @@ button:hover {
     width: 18rem;
   }
 
-}
+}*/
 
-@media (min-width: 320px) and (max-width: 480px){
- 
-  .para{
-      margin-top: 3rem;
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .para {
+    margin-top: 3rem;
   }
-  .mainboxcol1 .iconbar a.fa.fa{
 
-      padding: 1.5rem;
-    }
-    body {
-      font-size: 1.2rem;
-    }
-    .header {
-      padding: 0.5px;
-    }
-    .content {
-      padding: 0.5px;
-    }
-    #btn.image{
-      height: 15rem;
-      width: 15rem;
-    }
+  .body .mainbox {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: none !important;
+    width: 70%;
+  }
 
-} */
+  .mainboxcol1 {
+    float: left;
+    height: 50%;
+    width: 100%;
+  }
+
+  .mobile,
+  .m {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .m {
+    flex-direction: row-reverse;
+  }
+
+
+  div.image {
+    margin: 0;
+    display: inline-block;
+  }
+
+  div.name {
+    margin: 0;
+    margin-top: -10px;
+    display: inline-block;
+  }
+
+
+  .mainboxcol2 {
+    float: left;
+    height: 50%;
+    width: 100%;
+  }
+
+  .mainboxcol1 .iconbar a.fa.fa {
+    padding: 0.5rem;
+  }
+
+  body {
+    font-size: 1.2rem;
+  }
+
+  .header {
+    padding: 0.5px;
+  }
+
+  .content {
+    padding: 0.5px;
+  }
+
+  #btn.image {
+    height: 13rem;
+    width: 13rem;
+    margin: 0;
+  }
+
+}

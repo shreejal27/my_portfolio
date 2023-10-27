@@ -5,7 +5,7 @@
 <meta http-equiv='cache-control' content='no-cache'> 
 <meta http-equiv='expires' content='0'> 
 <meta http-equiv='pragma' content='no-cache'>
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <title>Shreejal's Portfolio</title>
     <link rel="stylesheet" href="index.css">
@@ -28,19 +28,18 @@
         <div class="mainbox">
             <div class="mainboxcol1">
 
-               
-                    <div class="image" id="btn">
-
-                    </div>
-             
-
-                <div class="name">
-                    <h1><strong> Shreejal</strong></h1>
-                    <h1>Maharjan</h1>
+               <div class="mobile">
+                    <div class="image" id="btn"></div>
+                       <div class="name">
+                           <h1><strong> Shreejal</strong></h1>
+                           <h1>Maharjan</h1>
+                        </div>
+                        
                 </div>
-                <div>
-                    <hr>
-                </div>
+                        <div>
+                            <hr>
+                        </div>
+                <div class="m">
                 <div class="job">
                     <h2>Hungry Learner</h2>
                 </div>
@@ -51,6 +50,7 @@
                     <a href="https://twitter.com/shreejal27" target="_blank" class="fa fa-2x fa-twitter"></a>
                     <a href="https://www.linkedin.com/in/shreejal27/" target="_blank" class="fa fa-2x fa-linkedin"></a>
                 </div>
+</div>
             </div>
             <div class="mainboxcol2">
                 <div class="info1">
