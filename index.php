@@ -39,7 +39,7 @@
                         <div>
                             <hr>
                         </div>
-                <div class="m">
+         
                 <div class="job">
                     <h2>Hungry Learner</h2>
                 </div>
@@ -50,7 +50,7 @@
                     <a href="https://twitter.com/shreejal27" target="_blank" class="fa fa-2x fa-twitter"></a>
                     <a href="https://www.linkedin.com/in/shreejal27/" target="_blank" class="fa fa-2x fa-linkedin"></a>
                 </div>
-</div>
+
             </div>
             <div class="mainboxcol2">
                 <div class="info1">
