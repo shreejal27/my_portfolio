@@ -25,7 +25,7 @@
     },
     {
       "name": "Weather App",
-      "type": "API Project",
+      "type": "API Project (JS)",
       "description": "Simple weather showing web app using an API from openweathermap. Added a feature where the background will have the image of the city you searched. <br><br> The project has a shuffled background image, so each time a user opens the app, they will see a different background.",
       "liveLink": "https://shreejal27.github.io/weatherApp/",
       "sourceCodeLink": "https://github.com/shreejal27/weatherApp",
@@ -54,6 +54,14 @@
       "liveLink": "https://shreejal27.github.io/treasureHunt/",
       "sourceCodeLink": "https://github.com/shreejal27/treasureHunt",
       "imagePath": "./projectImages/eggHunt.png"
-    }
+    },
+    {
+        "name": "Recipe Finder",
+        "type": "API Project (React)",
+        "description": "Recipe Finder application developed using React and powered by the Edamam API. Seamlessly search and discover a wide array of delicious recipes based on your preferences. <br><br> Intuitively designed interface for easy navigation and an enhanced user experience. ",
+        "liveLink": "https://shreejal27.github.io/recipe_finder/",
+        "sourceCodeLink": "https://github.com/shreejal27/recipe_finder",
+        "imagePath": "./projectImages/recipe_finder.png"
+      }
   ]
   
