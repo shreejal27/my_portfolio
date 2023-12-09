@@ -8,8 +8,13 @@
 </head>
 
 <body>
-    <?php include_once "header.php"; ?>
-    <div class="main">
+    <?php include_once "header.php"; 
+    $json = file_get_contents('projects.json');
+    // Decode the JSON file
+    $projects = json_decode($json, true);
+    ?>
+     <!-- projects hardcoded data -->
+    <!-- <div class="main">
         <center>
             <h1>Projects</h1><br><br><br>
             <p>
@@ -171,6 +176,42 @@
             </div>
         </div>
 
+    </div> -->
+    <div class="main">
+         <center>
+            <h1>Projects</h1><br><br><br>
+            <p>
+                Here is the overview of some of the few projects I have completed throughout my career.
+            </p><br><br>
+        </center>
+
+        <?php 
+        foreach ($projects as $project):
+        ?>
+        <div class="row">
+            <div class="lcol">
+                <p><strong><?= $project['name'] ?></strong><br>
+                    <?= $project['type'] ?><br><br>
+                    <?= $project['description'] ?></p>
+
+                    <?php 
+                    if ($project['liveLink']){
+                     ?>
+                    <a href="<?= $project['liveLink'] ?>" target="_blank"><button>See Live</button></a>
+                <?php } else { ?>
+                    <button id="b1" onclick="message()">See Live</button>
+                <?php }?>
+                <a href="<?= $project['sourceCodeLink'] ?>" target="_blank"><button>Source Code</button></a>
+            </div>
+            <div class="rcol">
+                <a href="<?= $project['imagePath'] ?>" target="_blank">
+                    <img src="<?= $project['imagePath'] ?>" alt="project image" width="100%" height="100%" style="object-fit: cover;">
+                </a>
+            </div>
+        </div>
+        <?php 
+        endforeach 
+        ?>
     </div>
 
     <?php include_once "footer.php"; ?>
