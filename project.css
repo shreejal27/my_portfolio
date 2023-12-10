@@ -4,26 +4,31 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   /* background-color: ; */
 }
+
 body {
   width: 100%;
 }
+
 .main {
   padding: 20%;
   padding-top: 10%;
   background-color: #c9a9a6;
 }
+
 h1 {
   height: 50px;
   width: 100%;
   text-align: center;
   font-size: 40px;
 }
+
 .main p {
   font-size: 18px;
   text-align: justify;
   padding-left: 100px;
   padding-right: 100px;
 }
+
 .row {
   height: 350px;
   width: 100%;
@@ -32,26 +37,30 @@ h1 {
   position: relative;
   box-shadow: -10px 10px 20px 2px gray;
 }
+
 .lcol {
   float: left;
   height: 350px;
   width: 55%;
   overflow: scroll;
-        /* white-space: nowrap; */
-  
+  /* white-space: nowrap; */
+
 }
+
 .lcol p {
   padding: 30px;
   font-size: 18px;
   text-align: left;
 
 }
+
 .rcol {
   height: 100%;
   width: 45%;
   background-color: burlywood;
   float: right;
 }
+
 button {
   margin-top: -5px;
   height: 50px;
@@ -62,25 +71,28 @@ button {
   border: transparent;
   transition: 0.6s ease;
   outline: none;
-  margin-left: 20px ;
-  
+  margin-left: 20px;
+
 }
+
 button:hover {
   background-color: #c9a9a6;
   color: whitesmoke;
   cursor: pointer;
 }
- img {
+
+img {
   -webkit-transform: scale(1.4);
-	transform: scale(1.4);
-	-webkit-transition: .4s ease-in-out;
-	transition: .4s ease-in-out;
-}
-img:hover {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-}
-.rcol{
-  overflow: hidden;
+  transform: scale(1.4);
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
 }
 
+img:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.rcol {
+  overflow: hidden;
+}

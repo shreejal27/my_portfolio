@@ -1,0 +1,50 @@
+{
+    "experience": [
+      {
+        "startDate": "March 2023",
+        "endDate": "July 2023",
+        "jobTitle": "Laravel Developer (Intern)",
+        "company": "Talent Connects",
+        "location": "Ekantakuna",
+        "description": "Worked as an intern, contributed to several modules for the company's HRIS software including the Raise Ticket module, and Attendance module, developed the landing page, and prepared complete system documentation."
+      },
+      {
+        "startDate": "August 2021",
+        "endDate": "December 2022",
+        "jobTitle": "Content Writer",
+        "company": "KPO & COMPANY PVT. LTD.",
+        "location": "Chabahil",
+        "description": "Worked as a content writer to publish content on multiple trending topics ranging from celebrities, news, and lifestyle articles."
+      }
+    ],
+    "education": [
+      {
+        "startDate": "September 2019",
+        "endDate": "Present",
+        "institution": "Kathmandu BernHardt College",
+        "degree": "Bachelors in Computer Application",
+        "location": "Bafal",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?"
+      },
+      {
+        "startDate": "April 2017",
+        "endDate": "December 2019",
+        "institution": "Kathmandu BernHardt Secondary School",
+        "degree": "+2 Management",
+        "location": "Balkhu",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?"
+      },
+      {
+        "startDate": "April 2016",
+        "endDate": "June 2017",
+        "institution": "Kathmandu BernHardt Secondary School",
+        "degree": "SEE",
+        "location": "Balkhu",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?"
+      }
+    ],
+    "skills": {
+      "professional": ["HTML / CSS", "Php", "Javascript", "C#", "React"],
+      "languages": ["Nepali", "Newari", "English", "Hindi"]
+    }
+  }

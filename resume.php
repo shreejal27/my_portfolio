@@ -6,7 +6,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-    <?php include_once "header.php"; ?>
+    <?php include_once "header.php";
+     $json = file_get_contents('resume.json');
+     $resumeData = json_decode($json, true);
+    ?>
         <div class="main">
             <h1>Resume</h1>
             <br><br><br><br><br><br>
@@ -14,80 +17,114 @@
                 <a href="./shree.pdf" download="shreejal_cv">
                     <button>Download CV</button></a>
             <br><br>
+            <?php
+            foreach($resumeData['experience'] as $experience):
+            ?>
             <div class="row">
                 <div class="lcol">
-                <p><strong>March 2023 - July 2023</strong> <br>
-                Laravel Developer (Intern) <br><br>
-                Talent Connects <br>
-                Ekantakuna<br></p>
+                <p><strong><?= $experience['startDate'] ." - ". $experience['endDate'] ?></strong> <br>
+                <?= $experience['jobTitle']?> <br><br>
+                <?= $experience['company']?> <br>
+                <?= $experience['location']?><br></p>
                 </div>
                 <div class="rcol">
-                 <p>Worked as an intern, contributed to several modules for the company's HRIS software including the Raise Ticket module, and Attendance module, developed the landing page, and prepared complete system documentation. </p>
+                 <p><?= $experience['description']?></p>
                 </div>
             </div>
-            <div class="row">
-                <div class="lcol">
-                <p><strong>August 2021 - December 2022</strong> <br>
-                Content Writer <br><br>
-                KPO & COMPANY PVT. LTD. <br>
-                Chabahil<br></p>
-                </div>
-                <div class="rcol">
-                 <p>Worked as a content writer to publish content on multipletrending topics ranging from celebrities, news and lifestylearticles. </p>
-                </div>
-            </div>
-        
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
+            <?php 
+            endforeach 
+            ?>
+           <br><br><br><br><br>
            <span ><strong id="text">Education</strong></span>
-           <br>
-           <br>
-           <div class="row">
-            <div class="lcol">
-             <p><strong>September 2019 - Present</strong> <br>
-                 Kathmandu BernHardt College <br>
-                 Bachelors in Computer Application <br><br>
-                 Bafal<br></p>
-            </div>
-            <div class="rcol">
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>           
-              </div>
-              </div>
-              <div class="row">
-                <div class="lcol">
-                 <p><strong>April 2017 - December 2019</strong> <br>
-                     Kathmandu BernHardt Secondary School <br>
-                     +2 Management <br><br>
-                     Balkhu<br></p>
-                </div>
-                <div class="rcol">
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>           
-                  </div>
-                </div>
+           <br><br>
+            <!-- 
                 <div class="row">
                 <div class="lcol">
-                 <p><strong>April 2016 - June 2017</strong> <br>
-                     Kathmandu BernHardt Secondary School <br>
-                     SEE <br><br>
-                     Balkhu<br></p>
+                <p><strong>September 2019 - Present</strong> <br>
+                    Kathmandu BernHardt College <br>
+                    Bachelors in Computer Application <br><br>
+                    Bafal<br></p>
                 </div>
                 <div class="rcol">
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>           
-                  </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>           
                 </div>
+                </div>
+                <div class="row">
+                    <div class="lcol">
+                    <p><strong>April 2017 - December 2019</strong> <br>
+                        Kathmandu BernHardt Secondary School <br>
+                        +2 Management <br><br>
+                        Balkhu<br></p>
+                    </div>
+                    <div class="rcol">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>           
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="lcol">
+                    <p><strong>April 2016 - June 2017</strong> <br>
+                        Kathmandu BernHardt Secondary School <br>
+                        SEE <br><br>
+                        Balkhu<br></p>
+                    </div>
+                    <div class="rcol">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum nostrum harum. Quod recusandae necessitatibus esse, quia quidem facere ratione, eaque fuga, dignissimos incidunt suscipit aut. Rerum impedit velit quasi?</p>           
+                    </div>
+                    </div>
+                    <div class="lastrow">
+                        <br><br>
+                        <strong id="lasttext">Professional skillset</strong>
+                        <br><br><br>
+                        <ul class="list">
+                            <li>HTML / CSS</li>
+                            <li>Php</li>
+                            <li>Javascript</li>
+                            <li>C#</li>
+                            <li>React</li>
+                            
+                        </ul>
+                        <br>
+                        <br>
+                        <strong id="lasttext">Languages</strong>
+                        <br><br><br>
+                        <ul class="list">
+                            <li>Nepali</li>
+                            <li>Newari</li>
+                            <li>English</li>
+                            <li>Hindi</li>
+                        </ul>
+                    </div>
+            
+                </div>
+                </div> 
+            -->
+            <?php
+            foreach($resumeData['education'] as $education):
+            ?>
+            <div class="row">
+                    <div class="lcol">
+                    <p><strong><?= $education['startDate'] ." - ". $education['endDate'] ?></strong> <br>
+                    <?= $education['institution']?> <br>
+                    <?= $education['degree']?><br><br>
+                    <?= $education['location']?><br></p>
+                    </div>
+
+                    <div class="rcol">
+                    <p>  <?= $education['description']?></p>           
+                    </div>
+            </div>
+            <?php 
+            endforeach 
+            ?>
+
                 <div class="lastrow">
                     <br><br>
                     <strong id="lasttext">Professional skillset</strong>
                     <br><br><br>
                     <ul class="list">
-                        <li>HTML / CSS</li>
-                        <li>Php</li>
-                        <li>Javascript</li>
-                        <li>C#</li>
-                        <li>React</li>
+                        <?php foreach ($resumeData['skills']['professional'] as $skill): ?>
+                            <li><?= $skill ?></li>
+                        <?php endforeach; ?>
                         
                     </ul>
                     <br>
@@ -95,16 +132,12 @@
                     <strong id="lasttext">Languages</strong>
                     <br><br><br>
                     <ul class="list">
-                        <li>Nepali</li>
-                        <li>Newari</li>
-                        <li>English</li>
-                        <li>Hindi</li>
+                    <?php foreach ($resumeData['skills']['languages'] as $language): ?>
+                            <li><?= $language ?></li>
+                        <?php endforeach; ?>
                     </ul>
                 </div>
-         
-            </div>
         </div>
-         
     <?php include_once "footer.php"; ?>
     </body>
 </html>
