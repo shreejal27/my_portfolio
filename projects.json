@@ -1,67 +1,74 @@
 [
-    {
-      "name": "Hamro Yatra (Public Vehicle Tracker)",
-      "type": "College Project (BCA 6th Sem)",
-      "description": "Built this comprehensive web application whose main objective was to track desired public vehicle on the map. The project also implements Haversine algorithm to find the nearest vehicle stop from the user's location.  <br><br> Users could calculate their fare using the given fare calculator as well as see the predefined routes of each registered public vehicle.",
-      "liveLink": null,
-      "sourceCodeLink": "https://github.com/shreejal27/publicVechicle_Tracker",
-      "imagePath": "./projectImages/hamroYatra.png"
-    },
-    {
-      "name": "Garbage Management System",
-      "type": "College Project (BCA 4th Sem)",
-      "description": "Solely engaged in building this web application whose primary objective was to trace the regular metropolitan city garbage van and find all the nearby dustbins on the map. <br><br> It includes a complaint system to register complaints and a form to become a garbage van driver for the people.",
-      "liveLink": null,
-      "sourceCodeLink": "https://github.com/shreejal27/Garbage_Management_System",
-      "imagePath": "./projectImages/garbagee.png"
-    },
-    {
-      "name": "Scrap Collector",
-      "type": "College Project (BCA 5th Sem)",
-      "description": "E-commerce website built using PHP and integrated with the Garbage Management System Project. Dynamically created categories and items rendered from the database. <br><br> The objective is to collect scrap items from people's households in exchange for money, focusing on reducing scrap in landfills.",
-      "liveLink": null,
-      "sourceCodeLink": "https://github.com/shreejal27/Garbage_Management_System",
-      "imagePath": "./projectImages/scrap.png"
-    },
-    {
-      "name": "Weather App",
-      "type": "API Project (JS)",
-      "description": "Simple weather showing web app using an API from openweathermap. Added a feature where the background will have the image of the city you searched. <br><br> The project has a shuffled background image, so each time a user opens the app, they will see a different background.",
-      "liveLink": "https://shreejal27.github.io/weatherApp/",
-      "sourceCodeLink": "https://github.com/shreejal27/weatherApp",
-      "imagePath": "./projectImages/weather.png"
-    },
-    {
-      "name": "Rock Paper Scissor",
-      "type": "Mini Game",
-      "description": "Get ready to play the classic game of Rock, Paper, Scissors in a whole new way! With sleek HTML and CSS design, and dynamic JavaScript functionality, this game is sure to provide hours of entertainment.<br><br> Choose your weapon and take on the computer in a battle of wits and strategy.",
-      "liveLink": "https://shreejal27.github.io/RockPaperScissor/",
-      "sourceCodeLink": "https://github.com/shreejal27/RockPaperScissor/",
-      "imagePath": "./projectImages/spr.png"
-    },
-    {
-      "name": "To Do List",
-      "type": "Mini Project",
-      "description": "Simple project built from scratch which stores the todo list of a user. <br><br> The mini project also has a checkbox feature which crosses the respective todo once clicked.",
-      "liveLink": "https://shreejal27.github.io/todo_List/",
-      "sourceCodeLink": "https://github.com/shreejal27/todo_List",
-      "imagePath": "./projectImages/todo.png"
-    },
-    {
-      "name": "Find The Egg",
-      "type": "Mini Game",
-      "description": "Embark on a thrilling Egg Hunt Adventure that combines the latest in HTML and CSS design with dynamic JavaScript features. <br><br> Your mission is to search for hidden eggs across a series of difficulty levels and use your keen observation skills to uncover these treasures hidden in plain sight.",
-      "liveLink": "https://shreejal27.github.io/treasureHunt/",
-      "sourceCodeLink": "https://github.com/shreejal27/treasureHunt",
-      "imagePath": "./projectImages/eggHunt.png"
-    },
-    {
-        "name": "Recipe Finder",
-        "type": "API Project (React)",
-        "description": "Recipe Finder application developed using React and powered by the Edamam API. Seamlessly search and discover a wide array of delicious recipes based on your preferences. <br><br> Intuitively designed interface for easy navigation and an enhanced user experience. ",
-        "liveLink": "https://shreejal27.github.io/recipe_finder/",
-        "sourceCodeLink": "https://github.com/shreejal27/recipe_finder",
-        "imagePath": "./projectImages/recipe_finder.png"
-      }
-  ]
-  
+  {
+    "name": "Hamro Yatra (Public Vehicle Tracker)",
+    "type": "College Project (BCA 6th Sem)",
+    "description": "Built this comprehensive web application whose main objective was to track desired public vehicle on the map. The project also implements Haversine algorithm to find the nearest vehicle stop from the user's location.  <br><br> Users could calculate their fare using the given fare calculator as well as see the predefined routes of each registered public vehicle.",
+    "liveLink": null,
+    "sourceCodeLink": "https://github.com/shreejal27/publicVechicle_Tracker",
+    "imagePath": "./projectImages/hamroYatra.png"
+  },
+  {
+    "name": "Garbage Management System",
+    "type": "College Project (BCA 4th Sem)",
+    "description": "Solely engaged in building this web application whose primary objective was to trace the regular metropolitan city garbage van and find all the nearby dustbins on the map. <br><br> It includes a complaint system to register complaints and a form to become a garbage van driver for the people.",
+    "liveLink": null,
+    "sourceCodeLink": "https://github.com/shreejal27/Garbage_Management_System",
+    "imagePath": "./projectImages/garbagee.png"
+  },
+  {
+    "name": "Scrap Collector",
+    "type": "College Project (BCA 5th Sem)",
+    "description": "E-commerce website built using PHP and integrated with the Garbage Management System Project. Dynamically created categories and items rendered from the database. <br><br> The objective is to collect scrap items from people's households in exchange for money, focusing on reducing scrap in landfills.",
+    "liveLink": null,
+    "sourceCodeLink": "https://github.com/shreejal27/Garbage_Management_System",
+    "imagePath": "./projectImages/scrap.png"
+  },
+  {
+    "name": "Weather App",
+    "type": "API Project (JS)",
+    "description": "Simple weather showing web app using an API from openweathermap. Added a feature where the background will have the image of the city you searched. <br><br> The project has a shuffled background image, so each time a user opens the app, they will see a different background.",
+    "liveLink": "https://shreejal27.github.io/weatherApp/",
+    "sourceCodeLink": "https://github.com/shreejal27/weatherApp",
+    "imagePath": "./projectImages/weather.png"
+  },
+  {
+    "name": "Rock Paper Scissor",
+    "type": "Mini Game",
+    "description": "Get ready to play the classic game of Rock, Paper, Scissors in a whole new way! With sleek HTML and CSS design, and dynamic JavaScript functionality, this game is sure to provide hours of entertainment.<br><br> Choose your weapon and take on the computer in a battle of wits and strategy.",
+    "liveLink": "https://shreejal27.github.io/RockPaperScissor/",
+    "sourceCodeLink": "https://github.com/shreejal27/RockPaperScissor/",
+    "imagePath": "./projectImages/spr.png"
+  },
+  {
+    "name": "To Do List",
+    "type": "Mini Project",
+    "description": "Simple project built from scratch which stores the todo list of a user. <br><br> The mini project also has a checkbox feature which crosses the respective todo once clicked.",
+    "liveLink": "https://shreejal27.github.io/todo_List/",
+    "sourceCodeLink": "https://github.com/shreejal27/todo_List",
+    "imagePath": "./projectImages/todo.png"
+  },
+  {
+    "name": "Find The Egg",
+    "type": "Mini Game",
+    "description": "Embark on a thrilling Egg Hunt Adventure that combines the latest in HTML and CSS design with dynamic JavaScript features. <br><br> Your mission is to search for hidden eggs across a series of difficulty levels and use your keen observation skills to uncover these treasures hidden in plain sight.",
+    "liveLink": "https://shreejal27.github.io/treasureHunt/",
+    "sourceCodeLink": "https://github.com/shreejal27/treasureHunt",
+    "imagePath": "./projectImages/eggHunt.png"
+  },
+  {
+    "name": "Recipe Finder",
+    "type": "API Project (React)",
+    "description": "Recipe Finder application developed using React and powered by the Edamam API. Seamlessly search and discover a wide array of delicious recipes based on your preferences. <br><br> Intuitively designed interface for easy navigation and an enhanced user experience. ",
+    "liveLink": "https://shreejal27.github.io/recipe_finder/",
+    "sourceCodeLink": "https://github.com/shreejal27/recipe_finder",
+    "imagePath": "./projectImages/recipe_finder.png"
+  },
+  {
+    "name": "Week Clock",
+    "type": "Mini Project",
+    "description": "Experience time in a new way with this interactive Week Clock that blends creative HTML and CSS layout with real-time JavaScript functionality. <br><br> Watch the rotating hand point to the current day and hour, while a dynamic countdown shows the remaining time left in the day.",
+    "liveLink": "https://shreejal27.github.io/weekClock/",
+    "sourceCodeLink": "https://github.com/shreejal27/weekClock",
+    "imagePath": "./projectImages/recipe_finder.png"
+  }
+]
